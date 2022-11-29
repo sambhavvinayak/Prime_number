@@ -14,9 +14,9 @@ public class project1 {
         // input a number to find whether it is prime number is or not
         System.out.print("Enter a number : ");
         int n = input.nextInt();
-        int count = 1;
+        int count = 0;
         // loop 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             if ((n%i)==0) {
                 count++;
             }
